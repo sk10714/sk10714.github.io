@@ -71,7 +71,7 @@ header>.container>nav>ul>li>a {
     border-radius: 8px;
 }
 .img-circle{
-    border-radius: 100%; //圓形
+    border-radius: 100%; /*圓形*/
 }
 //圖片相關樣式
 
@@ -111,4 +111,13 @@ header>.container>nav>ul>li>a {
 .col-6{
     width: calc(100% / 2 - 30px);
     margin: 0px 15px 40px 15px;
+}
+
+.title a{
+    color: black;
+    font-size: 1.5em; 
+    font-weight: 500;
+}
+.date{
+    color: rgb(170, 129, 18);
 }

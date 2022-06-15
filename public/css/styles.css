@@ -61,6 +61,7 @@ header > .container > nav > ul > li > a {
 
 .img-circle {
   border-radius: 100%;
+  /*圓形*/
 }
 
 .text-center {
@@ -94,4 +95,14 @@ header > .container > nav > ul > li > a {
 .col-6 {
   width: calc(100% / 2 - 30px);
   margin: 0px 15px 40px 15px;
+}
+
+.title a {
+  color: black;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.date {
+  color: #aa8112;
 }
