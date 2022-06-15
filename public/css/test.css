@@ -1,4 +1,14 @@
 @charset "UTF-8";
 body {
   font-family: Impact, "微軟正黑體";
+  color: #a5d891;
+}
+
+.btn-primary {
+  background-color: #a5d891;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  letter-spacing: 2px;
 }
