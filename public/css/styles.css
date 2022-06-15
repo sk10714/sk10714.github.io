@@ -106,3 +106,8 @@ header > .container > nav > ul > li > a {
 .date {
   color: #aa8112;
 }
+
+h2 {
+  font-size: 2em;
+  margin: 60px auto 30px auto;
+}
