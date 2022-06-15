@@ -1,6 +1,11 @@
 * {
   margin: 0;
-  padding: 0;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+  max-width: 1140px;
 }
 
 a {
@@ -15,14 +20,17 @@ body {
   margin: 0;
 }
 
-header > .container > h1 {
-  padding-top: 20px;
+header {
+  background-color: #894c00;
 }
 
-.container {
-  margin: auto;
-  width: 90%;
-  max-width: 1140px;
+header > .container > h1 {
+  padding-top: 20px;
+  color: #fce2ba;
+}
+
+header > .container > h1 > a {
+  color: #fce2ba;
 }
 
 header > .container > nav > ul {
@@ -36,7 +44,7 @@ header > .container > nav > ul > li {
 header > .container > nav > ul > li > a {
   text-decoration: none;
   line-height: 60px;
-  color: #d19335;
+  color: #fce2ba;
   font-size: 1.2em;
   letter-spacing: 2px;
 }
