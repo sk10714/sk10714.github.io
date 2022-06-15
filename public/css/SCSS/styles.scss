@@ -1,4 +1,43 @@
-body{
+$primary-color:rgb(209, 147, 53);
+*{
     margin: 0;
-    
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+body {
+    margin: 0;
+}
+
+header {
+    // background-color: rgb(237, 123, 123);
+}
+header>.container>h1{
+    padding-top: 20px;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    max-width: 1140px;
+}
+
+header>.container>nav>ul{
+    display: flex;
+    // justify-content: space-between;
+}
+header>.container>nav>ul>li{
+    margin-right: 30px;
+}
+header>.container>nav>ul>li>a{
+    text-decoration: none;
+    line-height: 60px;
+    color:$primary-color;
+    font-size: 1.2em;
+    letter-spacing: 2px;
 }
