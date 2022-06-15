@@ -1,22 +1,28 @@
-$primary-color:rgb(252, 226, 186);
-*{
+$primary-color: rgb(252, 226, 186);
+
+* {
     margin: 0;
 }
+
 .container {
     margin: auto;
     width: 90%;
     max-width: 1140px;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
-ul, ol {
+ul,
+ol {
     list-style-type: none;
 }
+
 body {
     margin: 0;
 }
+
 //＝＝＝＝＝＝＝＝
 //頁首
 //＝＝＝＝＝＝＝＝
@@ -24,31 +30,48 @@ body {
 header {
     background-color: rgb(137, 76, 0);
 }
-header>.container>h1{
+
+header>.container>h1 {
     padding-top: 20px;
-    color:$primary-color;
+    color: $primary-color;
 }
 
-header>.container>h1>a{
-    color:$primary-color;
+header>.container>h1>a {
+    color: $primary-color;
 }
 
 
 
-header>.container>nav>ul{
+header>.container>nav>ul {
     display: flex;
     // justify-content: space-between;
 }
-header>.container>nav>ul>li{
+
+header>.container>nav>ul>li {
     margin-right: 30px;
 }
-header>.container>nav>ul>li>a{
+
+header>.container>nav>ul>li>a {
     text-decoration: none;
     line-height: 60px;
-    color:$primary-color;
+    color: $primary-color;
     font-size: 1.2em;
     letter-spacing: 2px;
 }
+
 //==========
 //內容區塊
 //==========
+
+.img-fluid {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /*換行*/
+}
+
+.col-4 {
+    width: 33.33333%;
+}
