@@ -64,6 +64,18 @@ color:rgb(104, 69, 0);
 border-bottom: 2px solid rgb(104, 69, 0);
 }
 
+.container>main{
+    display: flex;
+    justify-content: space-between;
+}
+.container>#a1{
+    width: 20%;
+}
+.container>#a2{
+    width: 80%;
+}
+
+
 
 //==========
 //內容區塊

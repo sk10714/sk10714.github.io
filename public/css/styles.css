@@ -56,6 +56,19 @@ header > .container > nav > ul > li > a:hover {
   border-bottom: 2px solid #684500;
 }
 
+.container > main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container > #a1 {
+  width: 20%;
+}
+
+.container > #a2 {
+  width: 80%;
+}
+
 .img-fluid {
   width: 100%;
 }
