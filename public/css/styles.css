@@ -96,6 +96,7 @@ header > .container > nav > ul > li > a:hover {
   padding: 0;
   padding-left: 15px;
   margin-bottom: 10px;
+  color: #643800;
 }
 
 .img-fluid {
