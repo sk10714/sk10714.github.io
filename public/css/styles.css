@@ -61,12 +61,24 @@ header > .container > nav > ul > li > a:hover {
   justify-content: space-between;
 }
 
-.container > #a1 {
+.container > #menu {
   width: 20%;
 }
 
-.container > #a2 {
+.container > content {
   width: 80%;
+}
+
+.container > main li {
+  width: 60px;
+  height: 30px;
+}
+
+.container > main > #menu a {
+  color: white;
+  background-color: #875800;
+  text-align: center;
+  line-height: 30px;
 }
 
 .img-fluid {

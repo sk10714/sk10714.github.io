@@ -60,21 +60,36 @@ header>.container>nav>ul>li>a {
 }
 
 header>.container>nav>ul>li>a:hover {
-color:rgb(104, 69, 0);
-border-bottom: 2px solid rgb(104, 69, 0);
+    color: rgb(104, 69, 0);
+    border-bottom: 2px solid rgb(104, 69, 0);
 }
 
 //design-list 內容區
 
-.container>main{
+.container>main {
     display: flex;
     justify-content: space-between;
 }
-.container>#a1{
+
+.container>#menu {
     width: 20%;
 }
-.container>#a2{
+
+.container>content {
     width: 80%;
+}
+
+.container>main li {
+    width: 60px;
+    // background-color: rgb(130, 83, 2);
+    height: 30px;
+}
+
+.container>main>#menu a {
+    color: white;
+    background-color: rgb(135, 88, 0);
+    text-align: center;
+    line-height: 30px;
 }
 
 //design-list 內容區
@@ -87,31 +102,39 @@ border-bottom: 2px solid rgb(104, 69, 0);
 .img-fluid {
     width: 100%;
 }
-.img-rounded{
+
+.img-rounded {
     border-radius: 8px;
 }
-.img-circle{
-    border-radius: 100%; /*圓形*/
+
+.img-circle {
+    border-radius: 100%;
+    /*圓形*/
 }
+
 //圖片相關樣式
 
 
 
 //文字相關樣式
-.text-center{
+.text-center {
     text-align: center;
 }
-.text-left{
+
+.text-left {
     text-align: left;
 }
-.text-justify{
+
+.text-justify {
     text-align: justify;
 }
+
 //文字相關樣式
 
 .row {
     display: flex;
-    flex-wrap: wrap; /*換行*/
+    flex-wrap: wrap;
+    /*換行*/
 }
 
 //四欄式
@@ -120,29 +143,32 @@ border-bottom: 2px solid rgb(104, 69, 0);
     margin: 0px 15px 40px 15px;
     // 上右下左
 }
+
 //三欄式
 .col-4 {
     width: calc(100% / 3 - 30px);
     margin: 0px 15px 40px 15px;
     // 上右下左
-    
+
 }
+
 //兩欄式
-.col-6{
+.col-6 {
     width: calc(100% / 2 - 30px);
     margin: 0px 15px 40px 15px;
 }
 
-.title a{
+.title a {
     color: black;
-    font-size: 1.5em; 
+    font-size: 1.5em;
     font-weight: 500;
 }
-.date{
+
+.date {
     color: rgb(170, 129, 18);
 }
 
-h2{
+h2 {
     font-size: 2em;
     margin: 60px auto 30px auto;
 }
@@ -152,21 +178,25 @@ h2{
 //頁首
 //＝＝＝＝＝＝＝＝
 
-footer{
-    background-color:rgb(171, 126, 71);
+footer {
+    background-color: rgb(171, 126, 71);
     padding: 40px 0 40px 0;
 }
-dt{
+
+dt {
     font-size: 1.2em;
     margin-bottom: 10px;
 }
-dd{
+
+dd {
     margin-bottom: 4px;
 }
-dd>a{
+
+dd>a {
     color: $primary-color;
 
 }
-dd>a:hover{
-    color:rgb(104, 69, 0);
+
+dd>a:hover {
+    color: rgb(104, 69, 0);
 }
