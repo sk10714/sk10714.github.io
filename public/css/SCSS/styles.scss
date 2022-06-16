@@ -83,16 +83,21 @@ header>.container>nav>ul>li>a:hover {
 .w-80{
     width: 80%;
 }
-// .container>.row>aside.col-3>ul>li>a{
-//     color: white;
-//     background-color: rgb(165, 91, 0);
-//     display: block;
-//     width: 80%;
-//     text-align: center;
-//     height: 30%;
-//     line-height: 30%;
-//     margin-bottom: 10px;
-// }
+.container>.row>aside.col-3>ul>li>a{
+    color: white;
+    background-color: rgb(165, 91, 0);
+    display: block;
+    width: 80%;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.container>.row>aside.col-3>ul>li>a:hover{
+background-color: rgb(63, 33, 0);
+
+}
 
 //design-list 內容區
 

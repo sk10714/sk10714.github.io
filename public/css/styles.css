@@ -75,6 +75,22 @@ header > .container > nav > ul > li > a:hover {
   width: 80%;
 }
 
+.container > .row > aside.col-3 > ul > li > a {
+  color: white;
+  background-color: #a55b00;
+  display: block;
+  width: 80%;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.container > .row > aside.col-3 > ul > li > a:hover {
+  background-color: #3f2100;
+}
+
 .img-fluid {
   width: 100%;
 }
