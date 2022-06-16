@@ -66,24 +66,26 @@ header>.container>nav>ul>li>a:hover {
 
 //design-list 內容區
 
-.breadcrumb{
+.breadcrumb {
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
 }
 
-.breadcrumb a{
+.breadcrumb a {
     color: black;
 }
 
-.w-20{
+.w-20 {
     width: 20%;
 }
-.w-80{
+
+.w-80 {
     width: 80%;
 }
-.container>.row>aside.col-3>ul>li>a{
+
+.container>.row>aside.col-3>ul>li>a {
     color: white;
     background-color: rgb(165, 91, 0);
     display: block;
@@ -94,11 +96,13 @@ header>.container>nav>ul>li>a:hover {
     margin-bottom: 10px;
     border-radius: 8px;
 }
-.container>.row>aside.col-3>ul>li>a:hover{
-background-color: rgb(63, 33, 0);
+
+.container>.row>aside.col-3>ul>li>a:hover {
+    background-color: rgb(63, 33, 0);
 
 }
-.container>.row>main.col-9>h2{
+
+.container>.row>main.col-9>h2 {
     margin: 0;
     padding: 0;
     padding-left: 15px;
@@ -115,6 +119,7 @@ background-color: rgb(63, 33, 0);
 //圖片相關樣式
 .img-fluid {
     width: 100%;
+    height: 300px;
 }
 
 .img-rounded {
@@ -173,14 +178,14 @@ background-color: rgb(63, 33, 0);
     margin: 0px 15px 40px 15px;
 }
 
-.col-8{
+.col-8 {
     width: calc(100% / 1.5 - 30px);
     margin: 0px 15px 40px 15px;
 }
 
-.col-9{
+.col-9 {
     width: calc(100% / 1.333333 - 30px);
-    margin:  0px 15px 40px 15px;
+    margin: 0px 15px 40px 15px;
 }
 
 .title a {
@@ -225,3 +230,22 @@ dd>a {
 dd>a:hover {
     color: rgb(104, 69, 0);
 }
+
+
+//圖片滑動放大效果
+.container>.row>.col-4>a>div {
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.container>.row>.col-4>a>div>img {
+    display: block;
+    transition: all .5s;
+}
+
+.container>.row>.col-4>a>div:hover>img {
+    transform: scale(1.5);
+}
+
+//圖片滑動放大效果

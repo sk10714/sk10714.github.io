@@ -101,6 +101,7 @@ header > .container > nav > ul > li > a:hover {
 
 .img-fluid {
   width: 100%;
+  height: 300px;
 }
 
 .img-rounded {
@@ -190,4 +191,19 @@ dd > a {
 
 dd > a:hover {
   color: #684500;
+}
+
+.container > .row > .col-4 > a > div {
+  height: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.container > .row > .col-4 > a > div > img {
+  display: block;
+  transition: all 0.5s;
+}
+
+.container > .row > .col-4 > a > div:hover > img {
+  transform: scale(1.5);
 }
