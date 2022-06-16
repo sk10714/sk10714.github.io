@@ -64,7 +64,7 @@ header>.container>nav>ul>li>a:hover {
     border-bottom: 2px solid rgb(104, 69, 0);
 }
 
-//design-list 內容區
+//product 內容區
 
 .breadcrumb {
     display: flex;
@@ -110,7 +110,45 @@ header>.container>nav>ul>li>a:hover {
     color: rgb(100, 56, 0);
 }
 
-//design-list 內容區
+.container>.row>main.col-9>div.row a{
+    color: rgb(66, 33, 1);
+}
+.container>.row>main.col-9>div.row a:hover{
+    color: rgb(176, 89, 2);
+}
+.img-wrap{
+    display: block;
+    // background-color: rgb(40, 40, 40);
+    position: relative;
+    margin-bottom: 10px;
+}
+.img-overlay{
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.img-wrap img{
+    vertical-align: top;
+    transition: all .5s;
+}
+.img-wrap img:hover{
+    transform: scale(1.5);
+}
+
+.icon-new{
+    position: absolute;
+    width: 50px;   
+    line-height: 50px;
+    color: white;
+    border-radius: 100%;
+    background-color:green;
+    top: -10px;
+    left: -5px;
+}
+
+
+
+//product 內容區
 
 //==========
 //內容區塊
