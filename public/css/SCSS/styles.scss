@@ -121,6 +121,7 @@ header>.container>nav>ul>li>a:hover {
     // background-color: rgb(40, 40, 40);
     position: relative;
     margin-bottom: 10px;
+    
 }
 .img-overlay{
     overflow: hidden;
@@ -146,7 +147,10 @@ header>.container>nav>ul>li>a:hover {
     left: -5px;
 }
 
-
+.container>.row>main.col-9>.row>.col-4{
+    padding-bottom: 5px;
+    border-bottom: 2px dotted rgb(161, 161, 161);
+}
 
 //product 內容區
 
@@ -207,6 +211,7 @@ header>.container>nav>ul>li>a:hover {
     width: calc(100% / 3 - 30px);
     margin: 0px 15px 40px 15px;
     // 上右下左
+    
 
 }
 
