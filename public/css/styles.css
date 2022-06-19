@@ -56,6 +56,11 @@ header > .container > nav > ul > li > a:hover {
   border-bottom: 2px solid #684500;
 }
 
+.container > section h2 {
+  color: #956202;
+  margin-left: 15px;
+}
+
 .breadcrumb {
   display: flex;
   margin-top: 20px;
