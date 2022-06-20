@@ -56,7 +56,7 @@ header > .container > nav > ul > li > a:hover {
   border-bottom: 2px solid #684500;
 }
 
-.container > section h2 {
+.container > section > .row > h2 {
   color: #956202;
   margin-left: 15px;
 }
@@ -635,4 +635,13 @@ dd > a:hover {
 
 .mb-5 {
   margin-bottom: 5em;
+}
+
+.container > section > h2 {
+  color: #ab6f01;
+  margin: 0;
+}
+
+.container > section > h2 > .row {
+  margin-top: 30px;
 }

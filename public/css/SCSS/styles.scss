@@ -66,12 +66,11 @@ header>.container>nav>ul>li>a:hover {
 
 //product 內容區
 
-.container>section h2 {
+.container>section>.row>h2 {
     color: rgb(149, 98, 2);
     margin-left: 15px;
 }
 
-//onlinesote區
 .breadcrumb {
     display: flex;
     margin-top: 20px;
@@ -172,7 +171,10 @@ header>.container>nav>ul>li>a:hover {
     text-align: center;
     color: $primary-color;
 }
-
+//onlinestore 內容區
+.container>section>h2{
+    
+}
 //activity 內容區
 
 //==========
@@ -492,3 +494,11 @@ dd>a:hover {
     }
 }
 
+//onlinesote區 start
+.container>section>h2{
+    color: rgb(171, 111, 1);
+    margin: 0;
+}
+.container>section>h2>.row{
+    margin-top: 30px;
+}
