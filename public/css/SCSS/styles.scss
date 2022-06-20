@@ -161,8 +161,19 @@ header>.container>nav>ul>li>a:hover {
     padding-bottom: 5px;
     border-bottom: 2px dotted rgb(161, 161, 161);
 }
-
 //product 內容區
+.container>.row>ul{
+    display: flex;
+}
+.container>.row>ul>li>a{
+    display: block;
+    width: 100px;
+    background-color: rgb(137, 106, 40);
+    text-align: center;
+    color: $primary-color;
+}
+
+//activity 內容區
 
 //==========
 //內容區塊
@@ -280,6 +291,9 @@ header>.container>nav>ul>li>a:hover {
 .col-md-12{
     width: calc(100% / 1  - 30px);
     margin: 0px 15px 40px 15px;
+}
+.order-md-1{
+    order: -1;
 }
 }
 @media (min-width:1200px){

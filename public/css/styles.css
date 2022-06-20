@@ -148,6 +148,18 @@ header > .container > nav > ul > li > a:hover {
   border-bottom: 2px dotted #a1a1a1;
 }
 
+.container > .row > ul {
+  display: flex;
+}
+
+.container > .row > ul > li > a {
+  display: block;
+  width: 100px;
+  background-color: #896a28;
+  text-align: center;
+  color: #fce2ba;
+}
+
 .img-fluid {
   width: 100%;
   height: 300px;
@@ -239,6 +251,10 @@ header > .container > nav > ul > li > a:hover {
   .col-md-12 {
     width: calc(100% / 1 - 30px);
     margin: 0px 15px 40px 15px;
+  }
+
+  .order-md-1 {
+    order: -1;
   }
 }
 @media (min-width: 1200px) {
