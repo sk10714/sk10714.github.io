@@ -66,7 +66,7 @@ header>.container>nav>ul>li>a:hover {
 
 //product 內容區
 
-.container>section h2{
+.container>section h2 {
     color: rgb(149, 98, 2);
     margin-left: 15px;
 }
@@ -116,44 +116,48 @@ header>.container>nav>ul>li>a:hover {
     color: rgb(100, 56, 0);
 }
 
-.container>.row>main.col-9>div.row a{
+.container>.row>main.col-9>div.row a {
     color: rgb(66, 33, 1);
 }
-.container>.row>main.col-9>div.row a:hover{
+
+.container>.row>main.col-9>div.row a:hover {
     color: rgb(176, 89, 2);
 }
-.img-wrap{
+
+.img-wrap {
     display: block;
     // background-color: rgb(40, 40, 40);
     position: relative;
     margin-bottom: 10px;
-    
+
 }
-.img-overlay{
+
+.img-overlay {
     overflow: hidden;
     border-radius: 8px;
 }
 
-.img-wrap img{
+.img-wrap img {
     vertical-align: top;
     transition: all .5s;
 }
-.img-wrap img:hover{
+
+.img-wrap img:hover {
     transform: scale(1.5);
 }
 
-.icon-new{
+.icon-new {
     position: absolute;
-    width: 50px;   
+    width: 50px;
     line-height: 50px;
     color: white;
     border-radius: 100%;
-    background-color:green;
+    background-color: green;
     top: -10px;
     left: -5px;
 }
 
-.container>.row>main.col-9>.row>.col-4{
+.container>.row>main.col-9>.row>.col-4 {
     padding-bottom: 5px;
     border-bottom: 2px dotted rgb(161, 161, 161);
 }
@@ -217,7 +221,7 @@ header>.container>nav>ul>li>a:hover {
     width: calc(100% / 3 - 30px);
     margin: 0px 15px 40px 15px;
     // 上右下左
-    
+
 
 }
 
@@ -298,3 +302,60 @@ dd>a:hover {
 }
 
 //圖片滑動放大效果
+
+//icon-menu
+
+
+
+//小於767px以下執行 start
+@media(max-width:767px) {
+    h1 {
+        // background-color: rgb(3, 90, 22);
+        float: left;
+        // width: 85%;
+    }
+
+    .icon-menu {
+        display: block;
+        width: 15%;
+        color: black;
+        background-color: rgb(243, 172, 6);
+        line-height: 60px;
+        text-align: center;
+        float: right;
+    }
+
+
+    header>.container {
+        position: relative;
+    }
+
+    header>.container>nav {
+        width: 100%;
+        float: left;
+    }
+
+    header>.container>nav>ul {
+        display: block;
+    }
+
+    header>.container>nav>ul>li {
+        text-align: center;
+        width: 100%;
+    }
+
+    .overflow-hidden {
+        overflow: hidden;
+    }
+}
+
+//max-width 767 end
+
+//超過768px以上執行 start
+@media (min-width:768px) {
+    .icon-menu {
+        display: none;
+    }
+}
+
+//min-width 768  end

@@ -256,3 +256,46 @@ dd > a:hover {
 .container > .row > .col-4 > a > div:hover > img {
   transform: scale(1.5);
 }
+
+@media (max-width: 767px) {
+  h1 {
+    float: left;
+  }
+
+  .icon-menu {
+    display: block;
+    width: 15%;
+    color: black;
+    background-color: #f3ac06;
+    line-height: 60px;
+    text-align: center;
+    float: right;
+  }
+
+  header > .container {
+    position: relative;
+  }
+
+  header > .container > nav {
+    width: 100%;
+    float: left;
+  }
+
+  header > .container > nav > ul {
+    display: block;
+  }
+
+  header > .container > nav > ul > li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .overflow-hidden {
+    overflow: hidden;
+  }
+}
+@media (min-width: 768px) {
+  .icon-menu {
+    display: none;
+  }
+}
