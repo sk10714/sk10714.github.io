@@ -80,7 +80,7 @@ header > .container > nav > ul > li > a:hover {
   width: 80%;
 }
 
-.container > .row > aside.col-3 > ul > li > a {
+.container > .row > aside a {
   color: white;
   background-color: #a55b00;
   display: block;
@@ -92,11 +92,11 @@ header > .container > nav > ul > li > a:hover {
   border-radius: 8px;
 }
 
-.container > .row > aside.col-3 > ul > li > a:hover {
+.container > .row > aside a:hover {
   background-color: #3f2100;
 }
 
-.container > .row > main.col-9 > h2 {
+.container > .row > main h2 {
   margin: 0;
   padding: 0;
   padding-left: 15px;
@@ -104,11 +104,11 @@ header > .container > nav > ul > li > a:hover {
   color: #643800;
 }
 
-.container > .row > main.col-9 > div.row a {
+.container > .row > main a {
   color: #422101;
 }
 
-.container > .row > main.col-9 > div.row a:hover {
+.container > .row > main a:hover {
   color: #b05902;
 }
 
@@ -143,7 +143,7 @@ header > .container > nav > ul > li > a:hover {
   left: -5px;
 }
 
-.container > .row > main.col-9 > .row > .col-4 {
+.container > .row > main .col-4 {
   padding-bottom: 5px;
   border-bottom: 2px dotted #a1a1a1;
 }

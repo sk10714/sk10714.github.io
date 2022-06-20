@@ -91,7 +91,7 @@ header>.container>nav>ul>li>a:hover {
     width: 80%;
 }
 
-.container>.row>aside.col-3>ul>li>a {
+.container>.row>aside a {
     color: white;
     background-color: rgb(165, 91, 0);
     display: block;
@@ -103,12 +103,12 @@ header>.container>nav>ul>li>a:hover {
     border-radius: 8px;
 }
 
-.container>.row>aside.col-3>ul>li>a:hover {
+.container>.row>aside a:hover {
     background-color: rgb(63, 33, 0);
 
 }
 
-.container>.row>main.col-9>h2 {
+.container>.row>main h2 {
     margin: 0;
     padding: 0;
     padding-left: 15px;
@@ -116,11 +116,11 @@ header>.container>nav>ul>li>a:hover {
     color: rgb(100, 56, 0);
 }
 
-.container>.row>main.col-9>div.row a {
+.container>.row>main a {
     color: rgb(66, 33, 1);
 }
 
-.container>.row>main.col-9>div.row a:hover {
+.container>.row>main a:hover {
     color: rgb(176, 89, 2);
 }
 
@@ -157,7 +157,7 @@ header>.container>nav>ul>li>a:hover {
     left: -5px;
 }
 
-.container>.row>main.col-9>.row>.col-4 {
+.container>.row>main .col-4 {
     padding-bottom: 5px;
     border-bottom: 2px dotted rgb(161, 161, 161);
 }
