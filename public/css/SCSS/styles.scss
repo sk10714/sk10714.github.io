@@ -466,7 +466,7 @@ header{
         //viewport width
         left:0px;
         //這一行等第二層選單做完之後再打開
-        // left:-100vw;
+        left:-100vw;
         transition: all .3s;
     }
     .icon-menu:hover + nav{
@@ -488,8 +488,21 @@ header{
         width: 100%;
         // border-bottom: 1px solid $primary-color;
     }
-
-}
+    .submenu{
+        display: none;
+        background-color: $primary-color;
+    }
+    header>.container nav>ul>li:hover .submenu{
+        display: block;
+    }
+    .submenu>li{
+        line-height: 65px;
+        // border-bottom: 1px solid #000;
+    }
+    .submenu>li>a{
+        color: black;
+        display: block;
+    }
 .flex-space-between{
     justify-content: space-between;
 }
@@ -527,15 +540,7 @@ header{
 .container>section>h2>.row{
     margin-top: 30px;
 }
-
-
-
-
-
-
-
-
-
+}
 //onlinesote區 end
 
 
