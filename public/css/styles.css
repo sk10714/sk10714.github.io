@@ -65,12 +65,25 @@ header > .container nav > ul > li > a:hover {
     position: relative;
   }
 
+  header > .container nav > ul > li:hover .submenu {
+    display: block;
+  }
+
   .submenu {
     position: absolute;
-    background-color: #008d3f;
+    background-color: #fce2ba;
     width: 100%;
     left: 0px;
     top: 60px;
+    display: none;
+  }
+
+  .submenu > li {
+    line-height: 40px;
+  }
+
+  .submenu > li > a {
+    color: black;
   }
 }
 .container > section > .row > h2 {
