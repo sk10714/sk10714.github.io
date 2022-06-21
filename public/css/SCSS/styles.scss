@@ -23,6 +23,8 @@ body {
     margin: 0;
 }
 
+
+
 //＝＝＝＝＝＝＝＝
 //頁首
 //＝＝＝＝＝＝＝＝
@@ -47,8 +49,8 @@ header>.container nav>ul {
     // justify-content: space-between;
 }
 
-header>.container>nav>ul>li {
-    margin-right: 30px;
+header>.container nav>ul>li {
+    margin-right: 10px;
 }
 
 header>.container nav>ul>li>a {
@@ -63,6 +65,22 @@ header>.container nav>ul>li>a:hover {
     color: rgb(104, 69, 0);
     border-bottom: 2px solid rgb(104, 69, 0);
 }
+
+@media(min-width:768px){
+    header>.container nav{
+     width: 100%;   
+    }
+    header>.container nav>ul>li{
+        position: relative;
+    }
+    .submenu{
+        position: absolute;
+        background-color: rgb(0, 141, 63);
+        width: 100%;
+        left:0px;
+        top:60px;
+    }
+}//min-width 768 end
 
 //product 內容區
 
@@ -503,6 +521,7 @@ header{
         color: black;
         display: block;
     }
+}
 .flex-space-between{
     justify-content: space-between;
 }
@@ -540,7 +559,7 @@ header{
 .container>section>h2>.row{
     margin-top: 30px;
 }
-}
+
 //onlinesote區 end
 
 
