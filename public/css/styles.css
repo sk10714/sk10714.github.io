@@ -584,7 +584,7 @@ dd > a:hover {
   }
 
   nav {
-    left: -100vw;
+    left: 0px;
     transition: all 0.3s;
   }
 

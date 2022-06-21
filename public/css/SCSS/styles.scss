@@ -421,11 +421,11 @@ dd>a:hover {
 
 //小於767px以下執行 start
 @media(max-width:767px) {
-    h1 {
+    // h1 {
         // background-color: rgb(3, 90, 22);
         // float: left;
         // width: 85%;
-    }
+    // }
 
     .icon-menu {
         display: block;
@@ -452,10 +452,21 @@ header{
         background-color: rgba(176, 144, 80, 0.93);
         // float: left;
         // display: none;
+        //需要蓋板的話打開以下程式碼
+        // position: fixed;
+        // top:0px;
+        // height: 100vh;
+        // z-index: 999;
+
+        //需要從上往下出現程式碼
+        //height:0px;
+        //overflow:hidden;
     }
     nav{
         //viewport width
-        left:-100vw;
+        left:0px;
+        //這一行等第二層選單做完之後再打開
+        // left:-100vw;
         transition: all .3s;
     }
     .icon-menu:hover + nav{
