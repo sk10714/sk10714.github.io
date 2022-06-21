@@ -7,27 +7,28 @@ head
   link(rel='stylesheet' href='public/css/styles.css')
 // header start
 body
-    header.overflow-hidden 
+    header
       .container
-        a.icon-menu(href="#") menu
-        h1
-          a(href='index.html')  Ms.White cofe
-        nav
-          ul
-            li
-              a(href='activity.html') 最新消息
-            li
-              a(href='product.html') 嚴選商品
-            li
-              a(href='#') 門市資訊
-            li
-              a(href='susi.html') 咖啡豆專區
-            li
-              a(href='#') 懷特Lounge卡
-            li
-              a(href='#') 懷特講堂
-            li
-              a(href='onlinestore.html') 線上購物
+        .row.flex-space-between
+          h1
+            a(href='index.html')  Ms.White cofe
+          a.icon-menu(href="#") menu
+          nav
+            ul
+              li
+                a(href='activity.html') 最新消息
+              li
+                a(href='product.html') 嚴選商品
+              li
+                a(href='#') 門市資訊
+              li
+                a(href='susi.html') 咖啡豆專區
+              li
+                a(href='#') 懷特Lounge卡
+              li
+                a(href='#') 懷特講堂
+              li
+                a(href='onlinestore.html') 線上購物
     // header end
     img.img-fluid(src='https://picsum.photos/1920/450' alt='')
     // content start
