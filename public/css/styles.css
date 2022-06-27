@@ -619,7 +619,7 @@ dd > a:hover {
     transition: all 0.3s;
   }
 
-  .icon-menu:hover + nav {
+  nav.active {
     left: 0px;
   }
 

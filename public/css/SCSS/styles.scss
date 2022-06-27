@@ -517,7 +517,7 @@ header{
         left:-100vw;
         transition: all .3s;
     }
-    .icon-menu:hover + nav{
+    nav.active{
         left:0px;
         
         
